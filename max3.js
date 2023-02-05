@@ -2,7 +2,6 @@ const jim = 69;
 const dela = 97;
 const chinku = 99;
 
-
 // console.log(Math.max(jim, dela, chinku));
 // if (jim > dela && jim > chinku) {
 //   console.log(`Jim will get the cake`);
@@ -14,7 +13,7 @@ const chinku = 99;
 
 // HW-01:
 // Write a function that will take 3 numbers will return the max number
-
+// if else
 function maxNumber1(num1, num2, num3) {
   if (num1 > num2 && num1 > num3) {
     console.log(num1, ` is the largest number`);
@@ -25,8 +24,16 @@ function maxNumber1(num1, num2, num3) {
   }
 }
 
-maxNumber1(400, 200, 89)
+// maxNumber1(400, 200, 89);
 
+// using Math.min or Math.max
+
+function maxNumber2(num1, num2, num3) {
+  const largestNumber = Math.max(num1, num2, num3);
+  console.log(largestNumber);
+}
+
+maxNumber2(500, 4099, 39100)
 
 // HW-02:
 // Write a functio that will take 3 parameter and will return the min number
