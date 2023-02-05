@@ -33,10 +33,22 @@ function maxNumber2(num1, num2, num3) {
   console.log(largestNumber);
 }
 
-maxNumber2(500, 4099, 39100)
+// maxNumber2(500, 4099, 39100)
 
 // HW-02:
 // Write a functio that will take 3 parameter and will return the min number
+// if else
+function minNumber1(num1, num2, num3) {
+  if (num1 < num2 && num1 < num3) {
+    console.log(num1, ` is the largest number`);
+  } else if (num2 < num1 && num2 < num3) {
+    console.log(num2, ` is the largest number`);
+  } else if (num3 < num1 && num3 < num2) {
+    console.log(num3, ` is the largest number`);
+  }
+}
+
+minNumber1(9, 200, 89);
 
 // condition:
 // first time do it using if-else
