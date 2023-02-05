@@ -48,7 +48,16 @@ function minNumber1(num1, num2, num3) {
   }
 }
 
-minNumber1(9, 200, 89);
+// minNumber1(9, 200, 89);
+
+// using Math.min or Math.max
+
+function minNumber2(num1, num2, num3) {
+  const smallestNumber = Math.min(num1, num2, num3);
+  console.log(smallestNumber);
+}
+
+minNumber2(500, 40, 391)
 
 // condition:
 // first time do it using if-else
